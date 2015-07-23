@@ -23,7 +23,7 @@ import com.ljppff.fragment.Fragment2;
 import com.ljppff.fragment.Fragment3;
 import com.ljppff.fragment.Fragment4;
 
-public class MainActivity extends FragmentActivity implements OnCheckedChangeListener {
+public class MainActivity1 extends FragmentActivity implements OnCheckedChangeListener {
 
 	private Fragment1 f1;
 	private Fragment2 f2;

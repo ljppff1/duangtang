@@ -31,6 +31,245 @@
         />
     
 </RelativeLayout>
-    
+
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        android:id="@+id/mTv1"
+        android:text="天生购物狂"
+        android:background="@drawable/bt1"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_toRightOf="@id/mTv1"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@color/red"
+        />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="特惠"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/mTvList1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="单品"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList2"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="搭配"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+                android:id="@+id/mTvList3"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="礼物"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList4"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+   
+    
+    
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        android:id="@+id/mTv2"
+        android:text="时尚女魔头"
+        android:background="@drawable/bt2"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_toRightOf="@id/mTv2"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@color/green"
+        />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="潮流时尚"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/mTvList5"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="美发造型"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList6"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="美容美妆"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+                android:id="@+id/mTvList7"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="婚纱婚礼"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList8"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        android:id="@+id/mTv3"
+        android:text="白日梦想家"
+        android:background="@drawable/bt2"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_toRightOf="@id/mTv3"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_purple"
+        />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="家居生活"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/mTvList9"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="手工DIY"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList10"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="美食菜谱"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+                android:id="@+id/mTvList11"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="插画绘画"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList12"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+    
+    
+    
 </LinearLayout>
