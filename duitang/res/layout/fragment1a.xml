@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+   <RelativeLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="130dp"
+       >
+    <com.tianshicoffeeom.app.imgscroll.MyImgScroll
+        android:id="@+id/myvp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/vb"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+</RelativeLayout>
+
+    <me.maxwin.view.XListView
+        android:id="@+id/list"
+        android:scrollbars="vertical"
+         android:fastScrollEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   
+</LinearLayout>
