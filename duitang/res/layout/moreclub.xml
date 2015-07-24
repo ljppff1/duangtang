@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray1"
+ >
+
+    <RelativeLayout
+            style="@style/title_layout2"
+            android:layout_alignParentTop="true"
+            android:id="@+id/task_linearlayout">
+        <TextView
+                android:text="Club"
+                style="@style/title_textview"
+                android:id="@+id/task_title"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="2dip"
+                >
+        </TextView>
+        <TextView
+                android:layout_marginTop="1dip"
+                style="@style/title_line"
+                >
+        </TextView>
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        >
+        <ImageView
+             android:layout_width="40dp"
+            android:layout_height="40dp"
+           android:id="@+id/mIv11"
+                   android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+           
+            android:src="@drawable/club_more_icon"
+            
+             />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/mIv11"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="浏览更多的Club"
+            />
+                <ImageView
+             android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+                        android:layout_centerVertical="true"
+            
+             />
+        
+        
+    </RelativeLayout>
+    
+</LinearLayout>

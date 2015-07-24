@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/walkthroughs_background"
+ >
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:text="拍照"
+            android:textSize="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+                        android:gravity="center"
+            
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/register_user_head_pic_icon_selected"
+            />
+        <TextView 
+            android:text="从相册上传图片"
+            android:textSize="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/stickers_action_button_rotating_selected"
+            />
+                <TextView 
+            android:text="从网页抓取图片"
+            android:textSize="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/share_icon_q_zone"
+            />
+        
+        
+    </LinearLayout>
+    
+    <RelativeLayout 
+                android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        
+        >
+    <ImageView 
+        android:src="@drawable/action_bar_icon_close_dark"
+        android:layout_width="wrap_content"
+        android:id="@+id/mIvdele11"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        />
+    </RelativeLayout>
+</LinearLayout>
