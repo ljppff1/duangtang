@@ -84,7 +84,21 @@
         <item name="android:background">@color/white</item>
         <item name="android:orientation">horizontal</item>
     </style>
-
+    <style name="title_layout1">                                     <!-- 大标题栏布局 -->
+        <item name="android:layout_height">47dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <!--<item name="android:background">@drawable/g</item>-->
+        <item name="android:background">@color/gray1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="title_layout2">                                     <!-- 大标题栏布局 -->
+        <item name="android:layout_height">47dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <!--<item name="android:background">@drawable/g</item>-->
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    
     <style name="top_back_btn">
         <!--<item name="android:background">@drawable/top_back_btn_selector</item>-->
         <item name="android:background">@drawable/action_bar_icon_back_dark</item>

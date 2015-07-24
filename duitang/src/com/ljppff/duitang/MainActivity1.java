@@ -76,7 +76,7 @@ public class MainActivity1 extends FragmentActivity implements OnCheckedChangeLi
 				Animation loadAnimation = AnimationUtils.loadAnimation(
 						getApplicationContext(), R.anim.btn_add);
 				add.startAnimation(loadAnimation);
-			//	startActivity(new Intent(MainActivity.this, AddActivity.class));
+			  startActivity(new Intent(MainActivity1.this, PhotoActiivity.class));
 				overridePendingTransition(android.R.anim.fade_in,
 						android.R.anim.fade_out);
 			}

@@ -8,7 +8,7 @@
 <RelativeLayout 
     android:layout_width="fill_parent"
     android:layout_height="50dp"
-    android:background="@color/gray"
+    android:background="@color/gray1"
     
     >
     <ImageView 
@@ -31,6 +31,18 @@
         />
     
 </RelativeLayout>
+
+
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+     >
 
 <RelativeLayout 
     android:layout_width="fill_parent"
@@ -205,7 +217,7 @@
         android:textSize="8dp"
         android:id="@+id/mTv3"
         android:text="白日梦想家"
-        android:background="@drawable/bt2"
+        android:background="@drawable/bt3"
         />
     <View 
         android:layout_width="fill_parent"
@@ -213,7 +225,7 @@
         android:layout_toRightOf="@id/mTv3"
         android:layout_marginLeft="10dp"
         android:layout_centerVertical="true"
-        android:background="@android:color/holo_purple"
+        android:background="@color/yellow"
         />
     </RelativeLayout>
     <LinearLayout 
@@ -272,4 +284,162 @@
     
     
     
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        android:id="@+id/mTv4"
+        android:text="超萌战队"
+        android:background="@drawable/bt4"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_toRightOf="@id/mTv4"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@color/powderblue"
+        />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="萌宠"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/mTvList13"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="头像表情"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList14"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="壁纸"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+                android:id="@+id/mTvList15"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="美图摄像"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList16"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+    
+    
+    
+        
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        android:id="@+id/mTv5"
+        android:text="心灵捕手"
+        android:background="@drawable/bt5"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_toRightOf="@id/mTv5"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@color/pink"
+        />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="影音节"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/mTvList17"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="文字句子"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList18"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:text="旅行"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+                android:id="@+id/mTvList19"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        <TextView 
+            android:text="设计"
+            android:layout_width="0dp"
+                        android:gravity="center"
+                android:id="@+id/mTvList20"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
 </LinearLayout>
