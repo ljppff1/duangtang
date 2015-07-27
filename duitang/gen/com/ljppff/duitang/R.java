@@ -2452,6 +2452,7 @@ containing a value of this type.
         public static final int SampleTheme_BottomDrawer=0x7f080023;
         public static final int SampleTheme_RightDrawer=0x7f080021;
         public static final int SampleTheme_TopDrawer=0x7f080022;
+        public static final int Theme_AppStartLoadTranslucent=0x7f080024;
         public static final int Widget=0x7f08000e;
         /**  Base theme for the menu drawer. 
          */
