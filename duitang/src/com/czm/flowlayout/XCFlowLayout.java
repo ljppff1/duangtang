@@ -142,7 +142,7 @@ public class XCFlowLayout extends ViewGroup{
                     continue;
                 }
                 MarginLayoutParams lp = (MarginLayoutParams) child.getLayoutParams();
-                lp.setMargins(10, 5, 10, 5);
+                lp.setMargins(10, 15, 10, 15);
                 int cLeft = left + lp.leftMargin;
                 int cTop = top + lp.topMargin;
                 int cRight = cLeft + child.getMeasuredWidth();

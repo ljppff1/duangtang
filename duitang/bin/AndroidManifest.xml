@@ -29,6 +29,7 @@
         <activity android:name="com.huewu.pla.sample.ImageDetailActivity"></activity>
         <activity android:name="com.ljppff.duitang.ChoiceSelectActivity"></activity>
         <activity android:name="com.ljppff.duitang.PhotoActiivity"></activity>
+        <activity android:name="com.ljppff.duitang.ClubDetailActiivity"></activity>
     </application>
 
 </manifest>
