@@ -1,0 +1,20 @@
+   <RelativeLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="130dp"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       >
+    <com.tianshicoffeeom.app.imgscroll.MyImgScroll
+        android:id="@+id/myvp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/vb"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+</RelativeLayout>
