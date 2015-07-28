@@ -28,6 +28,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager.LayoutParams;
+import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.Toast;
 import com.dodola.model.DuitangInfo;
@@ -45,6 +46,7 @@ public class ImageDetailActivity extends FragmentActivity implements OnClickList
     private ImageFetcher mImageFetcher;
     private ViewPager mPager;
     private ArrayList<DuitangInfo> mInfos;
+	private Button tdc_back;
 
     @TargetApi(11)
     @Override
@@ -61,6 +63,15 @@ public class ImageDetailActivity extends FragmentActivity implements OnClickList
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         final int height = displayMetrics.heightPixels;
         final int width = displayMetrics.widthPixels;
+        
+        tdc_back =(Button) this.findViewById(R.id.tdc_back);
+        tdc_back.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+              finish();
+			}
+		});
+        
 
         // For this sample we'll use half of the longest width to resize our images. As the
         // image scaling ensures the image is larger than this, we should be left with a

@@ -17,6 +17,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.MeasureSpec;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ListAdapter;
@@ -81,8 +82,14 @@ public class XListView extends MultiColumnListView implements OnScrollListener {
 		super(context, attrs, defStyle);
 		initWithContext(context);
 	}
-
-	private void initWithContext(Context context) {
+    
+/*	@Override
+	public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+		int expandSpec = MeasureSpec.makeMeasureSpec(Integer.MAX_VALUE >> 2,
+				MeasureSpec.AT_MOST);
+		super.onMeasure(widthMeasureSpec, expandSpec);
+	}
+*/	private void initWithContext(Context context) {
 		mScroller = new Scroller(context, new DecelerateInterpolator());
 		// XListView need the scroll event, and it will dispatch the event to
 		// user's listener (as a proxy).
@@ -370,4 +377,5 @@ public class XListView extends MultiColumnListView implements OnScrollListener {
 			mScrollListener.onScroll(view, firstVisibleItem, visibleItemCount, totalItemCount);
 		}	
 	}
+
 }
