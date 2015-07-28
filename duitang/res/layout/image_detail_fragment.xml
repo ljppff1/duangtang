@@ -97,5 +97,280 @@
             android:background="@color/black"
             />
         
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="编发"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            />
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <TextView 
+                android:text="评论 63"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                
+                />
+                 <View 
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            />
+               
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                            <ImageView
+                android:layout_width="@dimen/image_head_pic"
+                android:layout_height="@dimen/image_head_pic"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mIvping1"
+                android:background="@drawable/mm01"/>
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mIvping1"
+                    android:layout_alignBottom="@id/mIvping1"
+                    android:orientation="vertical"
+                    >
+                    <RelativeLayout 
+                                                android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        
+                        >
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="粮粥萬西施"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        />
+                                         <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="今天 15：11"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:textSize="16sp"
+                        />
+                    
+                    </RelativeLayout>
+                                        <TextView 
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="做的好漂亮"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+                    
+                </LinearLayout>
+            </RelativeLayout>
+            <View 
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            />
+               <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                            <ImageView
+                android:layout_width="@dimen/image_head_pic"
+                android:layout_height="@dimen/image_head_pic"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mIvping12"
+                android:background="@drawable/mm01"/>
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mIvping12"
+                    android:layout_alignBottom="@id/mIvping12"
+                    android:orientation="vertical"
+                    >
+                    <RelativeLayout 
+                                                android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        
+                        >
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="粮粥萬西施"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        />
+                                         <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="今天 15：11"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:textSize="16sp"
+                        />
+                    
+                    </RelativeLayout>
+                                        <TextView 
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="做的好漂亮"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+                    
+                </LinearLayout>
+            </RelativeLayout>
+            <View 
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            />
+                  <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                            <ImageView
+                android:layout_width="@dimen/image_head_pic"
+                android:layout_height="@dimen/image_head_pic"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mIvping13"
+                android:background="@drawable/mm01"/>
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mIvping13"
+                    android:layout_alignBottom="@id/mIvping13"
+                    android:orientation="vertical"
+                    >
+                    <RelativeLayout 
+                                                android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        
+                        >
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="粮粥萬西施"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        />
+                                         <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="今天 15：11"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:textSize="16sp"
+                        />
+                    
+                    </RelativeLayout>
+                                        <TextView 
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="做的好漂亮"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+                    
+                </LinearLayout>
+            </RelativeLayout>
+            <View 
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            />
+                 <TextView 
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="查看更多 "
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="23sp"
+                        />
+        </LinearLayout>
+        
+        
+        
+        
+        
+                <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+          <TextView 
+                android:text="赞 193"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                
+                />
+                 <View 
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            />
+                 
+                 
+                    
+                    </LinearLayout>
+                 
+                                 <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+                
+                                      <TextView 
+                android:text="收到以下的专辑 1013"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                
+                />
+                 <View 
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            />
+                
+                    </LinearLayout>
+                
+        
     </LinearLayout>
 </ScrollView>
