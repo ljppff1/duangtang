@@ -11,13 +11,28 @@
             android:id="@+id/task_linearlayout">
         <TextView
                 android:text="我"
+                android:layout_centerInParent="true"
                 style="@style/title_textview"
                 android:id="@+id/task_title"
                 android:layout_marginLeft="10dp"
+                android:textSize="21sp"
                 android:layout_centerVertical="true"
                 android:layout_marginTop="2dip"
                 >
         </TextView>
+                <TextView
+                android:text="设置"
+                android:layout_alignParentRight="true"
+               android:textColor="@color/blue"
+                  android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="2dip"
+                >
+        </TextView>
+        
         <TextView
                 android:layout_marginTop="1dip"
                 style="@style/title_line"
@@ -431,7 +446,7 @@
                            <TextView 
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="我的专辑"
+                android:text="添加好友"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:layout_centerVertical="true"

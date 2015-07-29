@@ -98,13 +98,15 @@ public class MainActivity1 extends FragmentActivity implements OnCheckedChangeLi
 			}
 		}
 
+
+		
 		FragmentManager manager = getSupportFragmentManager();
 		FragmentTransaction transaction = manager.beginTransaction();
 		Fragment fragment = null;
 		switch (checkedIndex) {
 		case 0:
 			fragment = fragments.get(0);
-			transaction.replace(R.id.main_framelayout, fragment);
+			transaction.replace(R.id.main_framelayout, new Fragment1());
 			transaction.commit();
 			break;
 		case 1:

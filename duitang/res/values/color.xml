@@ -4,12 +4,14 @@
 <color name="lightyellow">#FFFFE0</color><!--亮黄色 -->
 
 <color name="yellow">#FFFF00</color><!--黄色 -->
+     <color name="transparent">#00000000</color>
 
 <color name="snow">#FFFAFA</color><!--雪白色 -->
 
 <color name="floralwhite">#FFFAF0</color><!--花白色 -->
 
 <color name="lemonchiffon">#FFFACD</color><!--柠檬绸色 -->
+     <color name="zone_title_bg">#ffee71a1</color>
 
 <color name="cornsilk">#FFF8DC</color><!--米绸色 -->
 

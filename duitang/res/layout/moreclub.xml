@@ -12,6 +12,7 @@
         <TextView
                 android:text="Club"
                 style="@style/title_textview"
+                   android:textSize="21sp"
                 android:id="@+id/task_title"
                 android:layout_marginLeft="10dp"
                 android:layout_centerVertical="true"
